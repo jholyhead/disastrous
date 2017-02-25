@@ -1,0 +1,144 @@
+#gamecontainer {
+	position:relative;
+	width:1024px; 
+	margin-left: auto; 
+	margin-right: auto ;
+}
+
+.smallIcon{
+	width:32px;
+	heigh:32px;
+}
+
+#header {
+	display:block;
+	height:100px;
+	width:1024px; 
+	margin-left: auto; 
+	margin-right: auto ;
+	background: linear-gradient(#304888,#233462);
+	margin-bottom:50px;
+}
+
+#gamescorecontainer {
+	position:absolute;
+	top:0px;
+	left:1030px;
+	width:200px;
+}
+#gamescorecontainer h1{
+	margin-bottom:5px;
+}
+#gamescore {
+	font-size: 2em;
+}
+
+#gamescoreboardcontainer {
+	position:absolute;
+	top:0px;
+	left:-405px;
+	width:400px;
+	height:800px;
+	background-color: #EAEAEA;
+}
+
+#gamescoreboardcontainer ol {
+	list-style: none;
+	-webkit-padding-start: 0px;
+}
+
+#gamescoreboardcontainer ol li {
+	font-size: 2em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.scbdEven {
+	background-color: #EAEAEA;
+}
+.scbdOdd {
+	background-color: #DADADA;
+}
+.scbdPos {
+	position:absolute;
+	left:0px;
+	margin-left: 20px;
+}
+
+#gamemap {
+	height:800px;
+	width:1020px;
+	display:block;
+}
+
+#btnStart{
+	padding:20px;
+	height:80px;
+}
+
+#btnSubmit{
+	padding:20px;
+	height:80px;
+}
+
+#h_header{
+	background:url("../images/orchid_header.png") no-repeat center center;
+	width: 1020px;
+	height: 100px;
+	text-indent: -1000em;
+}
+
+.dialog_text{
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: .8em;
+}
+
+.ui-widget-content {
+    background: #F9F9F9;
+    border: 1px solid #90d93f;
+    color: #222222;
+}
+
+.ui-dialog {
+    left: 0;
+    outline: 0 none;
+    padding: 0 !important;
+	
+    position: absolute;
+    top: 0;
+}
+
+#success {
+    padding: 0;
+    margin: 0; 
+}
+
+.ui-dialog .ui-dialog-content {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    overflow: auto;
+    position: relative;
+    padding: 0 !important;
+}
+
+.ui-widget-header {
+    background: #8BC2F9;
+    border: 0;
+    color: #fff;
+    font-weight: normal;
+	font-size:2em;
+	text-align:center;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0.5em .5em;
+    position: relative;
+	font-size: 2em;
+}
+
+.ui-dialog-titlebar-close {
+  visibility: hidden;
+}

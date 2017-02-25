@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+        
+		<title>Disastrous</title>
+        <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+		<script src="/js/leaflet.js"></script>
+        <script src="/js/modernizr-2.6.2.js"></script>
+        <script src="/js/L.Routing.js"></script>
+        <script src="/js/Control.Geocoder.js"></script>
+        <script src="/js/jquery-1.8.2.min.js"></script>
+        <script src="/js/AnimatedMarker.js"></script>
+		<script src="/js/disastrous.js"></script>
+		<script src="/js/jquery-ui-1.8.24.min.js"></script>
+		
+		
+
+		<link rel="stylesheet" href="/css/leaflet.css" />
+		<link rel="stylesheet" href="/css/style.css" />
+    </head>
+    <body onload="initagent();">
+		<div id="header">
+			
+			<h1 id="h_header">
+				Orchid Project
+			</h1>
+			
+		</div>
+		<div id="gamecontainer">
+			<div id="gamemap"></div>
+			<h1 id="gamescore"></h1>
+
+		</div>
+		
+		<div id="gameStartDialog" title="Ready to play?" >
+			<p class="dialog_text">The aim of the game is to rescue the injured people, arrest the criminals and put out the fires before time runs out. </p>
+			<p class="dialog_text">To send the emergency services to an incident, first click on an emergency service shield and then click on one of the relevant incident icons</p>
+			<div class="dialog_text">
+			<table style="margin-left:auto; margin-right:auto">
+				<tr >
+					<td>Firefighters</td><td><img src="images/icon_fireguard.png" /> </td><td>can be sent to put out fires </td><td><img src="images/icon_fire.png"/></td>
+				</tr>
+				<tr>
+					<td>Police </td><td><img src="images/icon_police.png" /> </td><td>can be sent after criminals </td><td><img src="images/icon_burglary.png"/></td>
+				</tr>
+				<tr>
+					<td>Ambulances </td><td><img src="images/icon_ambulance.png" /> </td><td>can be sent to injured people </td><td><img src="images/icon_red_cross.png"/></td>
+				</tr>
+				
+			</table>
+			<!--<select id="simIdSelect"></select>-->
+			<!--<input id="leaderboardName" type="text" name="leaderboardName" value="Fred" placeholder="Enter Your Name">-->
+			<img src="images/blue-button-png-hi.png" id="btnStart" />
+			</div>
+		</div>
+		
+		<div id="gameEndDialog" title="">			
+			<p class="dialog_text"> Enter your details below and click submit to submit your score to the leader board. If you are not at the British Science Festival on a school trip, you can enter your email address in the school box.</p>
+			<div class="dialog_text">
+			<table style="margin-left:auto; margin-right:auto">
+
+				<tr>
+				<td colspan="2"><img src="images/submit.png" id="btnSubmit" /></td>
+				</tr>
+			</table>
+			
+			</div>
+		</div>
+	</body>
+</html>
